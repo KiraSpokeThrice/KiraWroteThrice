@@ -1,7 +1,16 @@
-title: Kira's Poetry  
-description: A collection of my words  
-theme: none  # Forces GitHub Pages to use default Jekyll settings  
+title: Kira's Poetry
+description: A collection of my words
+
+# Remove the theme line completely (GitHub defaults to no theme if none is specified)
+
 plugins:
   - jekyll-optional-front-matter
+
 include:
   - poems
+
+defaults:
+  - scope:
+      path: "poems"
+    values:
+      layout: "default"
