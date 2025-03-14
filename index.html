@@ -22,6 +22,14 @@
         {% endfor %}
     </ul>    
 
+<ul>
+    {% for page in site.html_pages %}
+        {% if page.path contains "poems/" %}
+            <li><a href="{{ page.url }}">{{ page.title | default: page.name }}</a></li>
+        {% endif %}
+    {% endfor %}
+</ul>
+    
     <footer>© 2025 Kira | All Rights Reserved</footer>
 </body>
 </html>
