@@ -14,14 +14,6 @@
         <p>Echoes soft as falling rain.</p>
     </div>
     
-    <ul>
-        {% for page in site.pages %}
-            {% if page.path contains "poems/" and page.path endswith ".html" %}
-                <li><a href="{{ page.url }}">{{ page.title | default: page.name }}</a></li>
-            {% endif %}
-        {% endfor %}
-    </ul>    
-
 <ul>
     {% for page in site.html_pages %}
         {% if page.path contains "poems/" %}
