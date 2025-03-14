@@ -3,3 +3,5 @@ description: A collection of my words
 theme: none  # Forces GitHub Pages to use default Jekyll settings  
 plugins:
   - jekyll-optional-front-matter
+include:
+  - poems
