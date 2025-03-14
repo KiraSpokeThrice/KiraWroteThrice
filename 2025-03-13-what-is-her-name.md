@@ -1,4 +1,8 @@
-## What is her name?
+---
+layout: default
+title: What is her name?
+---
+# What is her name?
 
 She is part New Zealander,
 She can unlock his door,
