@@ -1,8 +1,6 @@
 title: Kira's Poetry
 description: A collection of my words
 
-# Remove the theme line completely (GitHub defaults to no theme if none is specified)
-
 plugins:
   - jekyll-optional-front-matter
 
@@ -14,3 +12,4 @@ defaults:
       path: "poems"
     values:
       layout: "default"
+      sitemap: true
