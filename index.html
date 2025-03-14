@@ -9,12 +9,19 @@
 <body>
     <h1>Welcome to My Writing Vault</h1>
     <p>This is where my words live.</p>
-    <p>This is where I grow.</p>
 
     <div class="poem">
         <p>Through ink and time, the words remain,</p>
         <p>Echoes soft as falling rain.</p>
     </div>
+
+    <ul>
+        {% for page in site.pages %}
+            {% if page.path contains "poems/" and page.path endswith ".html" %}
+                <li><a href="{{ page.url }}">{{ page.title | default: page.name }}</a></li>
+            {% endif %}
+        {% endfor %}
+    </ul>    
 
     <footer>© 2025 Kira | All Rights Reserved</footer>
 </body>
