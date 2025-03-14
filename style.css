@@ -1,57 +1,99 @@
-/* 🌿 Kira's Elegant Writing Theme 🌿 */
+/* 🌿 Kira's Essence - A Theme of Soft Strength & Ethereal Elegance 🌿 */
 
 /* General Page Styling */
 body {
-    font-family: "Georgia", serif;
-    background-color: #f8f8f8;
-    color: #333;
-    max-width: 700px;
-    margin: 40px auto;
-    padding: 20px;
-    line-height: 1.8;
+    font-family: "Merriweather", serif;
+    background: linear-gradient(180deg, #f8f3fc, #e6e0f1); /* Soft lavender-pink blend */
+    color: #2c2c2c;
+    max-width: 750px;
+    margin: 50px auto;
+    padding: 25px;
+    line-height: 1.9;
     text-align: justify;
-    border-radius: 10px;
-    background: white;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.95); 
+    box-shadow: 0px 8px 20px rgba(44, 62, 80, 0.15);
+    animation: fadeIn 1s ease-in-out;
 }
 
-/* Headings */
+/* Soft Fade-in Effect */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Headings - Elegant & Confident */
 h1 {
-    color: #2c3e50;
+    color: #4a3f72;
     text-align: center;
-    font-size: 2.2em;
-    margin-bottom: 10px;
+    font-size: 2.5em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 3px rgba(74, 63, 114, 0.2);
 }
 
 h2, h3 {
-    color: #34495e;
-    margin-top: 20px;
+    color: #5c497a;
+    font-weight: bold;
+    margin-top: 25px;
 }
 
-/* Links */
+/* Links - Gentle & Inviting */
 a {
-    color: #3498db;
+    color: #915ea5;
     text-decoration: none;
     font-weight: bold;
+    transition: all 0.3s ease-in-out;
 }
 
 a:hover {
-    color: #2980b9;
+    color: #6b3e7e;
+    text-decoration: underline;
 }
 
-/* Navigation (If you add a menu later) */
+/* Navigation (For When You Add Pages) */
 nav {
     text-align: center;
-    margin-bottom: 30px;
-}
-
-nav a {
-    margin: 0 10px;
+    margin-bottom: 40px;
     font-size: 1.2em;
 }
 
-/* Poetry & Story Styling */
+nav a {
+    margin: 0 12px;
+    font-size: 1.1em;
+    padding: 6px 10px;
+    border-radius: 6px;
+    background: rgba(145, 94, 165, 0.1);
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background: rgba(145, 94, 165, 0.2);
+}
+
+/* Poetry & Story Styling - Whispered Words */
 .poem {
     font-style: italic;
-    margin: 20px 0;
-    padding-left: 10px;
+    font-size: 1.1em;
+    color: #5c497a;
+    background: rgba(145, 94, 165, 0.05);
+    padding: 12px;
+    border-left: 3px solid #915ea5;
+    border-radius: 6px;
+    margin: 25px 0;
+    transition: all 0.4s ease-in-out;
+}
+
+.poem:hover {
+    background: rgba(145, 94, 165, 0.1);
+}
+
+/* Footer - Quiet, Yet Present */
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    margin-top: 40px;
+    padding-top: 15px;
+    border-top: 1px solid #ddd;
+    color: #666;
+}
