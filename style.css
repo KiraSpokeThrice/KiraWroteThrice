@@ -1,0 +1,57 @@
+/* 🌿 Kira's Elegant Writing Theme 🌿 */
+
+/* General Page Styling */
+body {
+    font-family: "Georgia", serif;
+    background-color: #f8f8f8;
+    color: #333;
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+    line-height: 1.8;
+    text-align: justify;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    font-size: 2.2em;
+    margin-bottom: 10px;
+}
+
+h2, h3 {
+    color: #34495e;
+    margin-top: 20px;
+}
+
+/* Links */
+a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #2980b9;
+}
+
+/* Navigation (If you add a menu later) */
+nav {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+nav a {
+    margin: 0 10px;
+    font-size: 1.2em;
+}
+
+/* Poetry & Story Styling */
+.poem {
+    font-style: italic;
+    margin: 20px 0;
+    padding-left: 10px;
