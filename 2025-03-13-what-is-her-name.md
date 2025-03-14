@@ -1,6 +1,6 @@
 ---
 layout: default
-title: What is her name?
+title: What is Her Name?
 ---
 She is part New Zealander,  
 She can unlock his door,  
